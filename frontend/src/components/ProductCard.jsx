@@ -94,7 +94,7 @@ export default function ProductCard({ product }) {
         src={product.image}
         alt={product.name}
         fit={"cover"}
-        height={"sm"}
+        justifySelf={"center"}
       />
       <Box p={4}>
         <Heading as={"h3"} size="cover" mb={2}>
